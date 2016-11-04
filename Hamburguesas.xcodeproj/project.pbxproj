@@ -12,6 +12,8 @@
 		81C65D7D1DCBA2C200294BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C65D7B1DCBA2C200294BE2 /* Main.storyboard */; };
 		81C65D7F1DCBA2C200294BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C65D7E1DCBA2C200294BE2 /* Assets.xcassets */; };
 		81C65D821DCBA2C200294BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C65D801DCBA2C200294BE2 /* LaunchScreen.storyboard */; };
+		81C65D8C1DCBB8F900294BE2 /* ColoresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C65D8B1DCBB8F900294BE2 /* ColoresStruct.swift */; };
+		81C65D8E1DCBD0A700294BE2 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C65D8D1DCBD0A700294BE2 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		81C65D7E1DCBA2C200294BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81C65D811DCBA2C200294BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81C65D831DCBA2C200294BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C65D891DCBA4D200294BE2 /* MyPlaygroundPrueba.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundPrueba.playground; sourceTree = "<group>"; };
+		81C65D8B1DCBB8F900294BE2 /* ColoresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoresStruct.swift; sourceTree = "<group>"; };
+		81C65D8D1DCBD0A700294BE2 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +59,25 @@
 		81C65D761DCBA2C200294BE2 /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				81C65D8A1DCBA4F500294BE2 /* playgrounds */,
 				81C65D771DCBA2C200294BE2 /* AppDelegate.swift */,
 				81C65D791DCBA2C200294BE2 /* ViewController.swift */,
 				81C65D7B1DCBA2C200294BE2 /* Main.storyboard */,
 				81C65D7E1DCBA2C200294BE2 /* Assets.xcassets */,
 				81C65D801DCBA2C200294BE2 /* LaunchScreen.storyboard */,
 				81C65D831DCBA2C200294BE2 /* Info.plist */,
+				81C65D8B1DCBB8F900294BE2 /* ColoresStruct.swift */,
+				81C65D8D1DCBD0A700294BE2 /* Datos.swift */,
 			);
 			path = Hamburguesas;
+			sourceTree = "<group>";
+		};
+		81C65D8A1DCBA4F500294BE2 /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				81C65D891DCBA4D200294BE2 /* MyPlaygroundPrueba.playground */,
+			);
+			name = playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81C65D7A1DCBA2C200294BE2 /* ViewController.swift in Sources */,
+				81C65D8E1DCBD0A700294BE2 /* Datos.swift in Sources */,
+				81C65D8C1DCBB8F900294BE2 /* ColoresStruct.swift in Sources */,
 				81C65D781DCBA2C200294BE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
